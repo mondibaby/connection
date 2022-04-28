@@ -1,0 +1,1421 @@
+npm ERR! missing script: start
+
+npm ERR! A complete log of this run can be found in:
+npm ERR!     /home/careerpointap/.npm/_logs/2019-12-05T12_01_29_053Z-debug.log
+CARRER API Server is listening at http://0.0.0.0:7002
+Heello world!!!!
+select * from ntfcn_lst_t where ntfcn_typ='c';
+(node:12555) [DEP0095] DeprecationWarning: timers.enroll() is deprecated. Please use setTimeout instead.
+(node:12555) [DEP0096] DeprecationWarning: timers.unenroll() is deprecated. Please use clearTimeout instead.
+Heello world!!!!
+select * from ntfcn_lst_t where ntfcn_typ='c';
+Heello world!!!!
+{ name: 'swetga',
+  mail: 'gorthyswetha@gmail.com',
+  number: '9491219383',
+  stream: '4',
+  class: '6',
+  center: '1' }
+coming into the data!!!!!!!!
+insert into onln_register (reg_nm,reg_mail,reg_phnm,stream,class,center) values('swetga','gorthyswetha@gmail.com','9491219383','4','6','1');
+Heello world!!!!
+select * from ntfcn_lst_t where ntfcn_typ='c';
+{ Error: ER_NO_SUCH_TABLE: Table 'careerpo_db.usr_pckg_tst_rel_t' doesn't exist
+    at Query.Sequence._packetToError (/home/careerpointap/careerpointapi/node_modules/mysql/lib/protocol/sequences/Sequence.js:52:14)
+    at Query.ErrorPacket (/home/careerpointap/careerpointapi/node_modules/mysql/lib/protocol/sequences/Query.js:77:18)
+    at Protocol._parsePacket (/home/careerpointap/careerpointapi/node_modules/mysql/lib/protocol/Protocol.js:279:23)
+    at Parser.write (/home/careerpointap/careerpointapi/node_modules/mysql/lib/protocol/Parser.js:76:12)
+    at Protocol.write (/home/careerpointap/careerpointapi/node_modules/mysql/lib/protocol/Protocol.js:39:16)
+    at Socket.<anonymous> (/home/careerpointap/careerpointapi/node_modules/mysql/lib/Connection.js:103:28)
+    at Socket.emit (events.js:182:13)
+    at Socket.EventEmitter.emit (domain.js:442:20)
+    at addChunk (_stream_readable.js:283:12)
+    at readableAddChunk (_stream_readable.js:264:11)
+    --------------------
+    at Protocol._enqueue (/home/careerpointap/careerpointapi/node_modules/mysql/lib/protocol/Protocol.js:145:48)
+    at PoolConnection.query (/home/careerpointap/careerpointapi/node_modules/mysql/lib/Connection.js:208:25)
+    at /home/careerpointap/careerpointapi/utils/dbutils.js:9:36
+    at Ping.onOperationComplete [as _callback] (/home/careerpointap/careerpointapi/node_modules/mysql/lib/Pool.js:110:5)
+    at Ping.Sequence.end (/home/careerpointap/careerpointapi/node_modules/mysql/lib/protocol/sequences/Sequence.js:88:24)
+    at Ping.Sequence.OkPacket (/home/careerpointap/careerpointapi/node_modules/mysql/lib/protocol/sequences/Sequence.js:97:8)
+    at Protocol._parsePacket (/home/careerpointap/careerpointapi/node_modules/mysql/lib/protocol/Protocol.js:279:23)
+    at Parser.write (/home/careerpointap/careerpointapi/node_modules/mysql/lib/protocol/Parser.js:76:12)
+    at Protocol.write (/home/careerpointap/careerpointapi/node_modules/mysql/lib/protocol/Protocol.js:39:16)
+    at Socket.<anonymous> (/home/careerpointap/careerpointapi/node_modules/mysql/lib/Connection.js:103:28)
+  code: 'ER_NO_SUCH_TABLE',
+  errno: 1146,
+  sqlMessage: 'Table \'careerpo_db.usr_pckg_tst_rel_t\' doesn\'t exist',
+  sqlState: '42S02',
+  index: 0,
+  sql:
+   '\n\t\tSELECT count(*)*2 as cnt,ss.clnt_id FROM usr_pckg_tst_rel_t as upt\n\t\tJOIN stu_signup_dtl_t as ss on ss.usr_id = upt.usr_id AND clnt_id <> 1\n\t\tWHERE strt_in = 1 AND DATE_FORMAT(start_tm, "%Y-%m-%d") = CURDATE() - INTERVAL 2 day GROUP BY ss.clnt_id;\t\n\t' }
+/home/careerpointap/careerpointapi/node_modules/mysql/lib/protocol/Parser.js:80
+        throw err; // Rethrow non-MySQL errors
+        ^
+
+TypeError: Cannot read property 'send' of undefined
+    at /home/careerpointap/careerpointapi/controllers/mainCtrl.js:5197:17
+    at /home/careerpointap/careerpointapi/models/mainModel.js:3377:4
+    at Query._callback (/home/careerpointap/careerpointapi/utils/dbutils.js:11:59)
+    at Query.Sequence.end (/home/careerpointap/careerpointapi/node_modules/mysql/lib/protocol/sequences/Sequence.js:88:24)
+    at Query.ErrorPacket (/home/careerpointap/careerpointapi/node_modules/mysql/lib/protocol/sequences/Query.js:90:8)
+    at Protocol._parsePacket (/home/careerpointap/careerpointapi/node_modules/mysql/lib/protocol/Protocol.js:279:23)
+    at Parser.write (/home/careerpointap/careerpointapi/node_modules/mysql/lib/protocol/Parser.js:76:12)
+    at Protocol.write (/home/careerpointap/careerpointapi/node_modules/mysql/lib/protocol/Protocol.js:39:16)
+    at Socket.<anonymous> (/home/careerpointap/careerpointapi/node_modules/mysql/lib/Connection.js:103:28)
+    at Socket.emit (events.js:182:13)
+npm ERR! missing script: start
+
+npm ERR! A complete log of this run can be found in:
+npm ERR!     /home/careerpointap/.npm/_logs/2019-12-06T04_41_12_152Z-debug.log
+CARRER API Server is listening at http://0.0.0.0:7002
+(node:12258) [DEP0095] DeprecationWarning: timers.enroll() is deprecated. Please use setTimeout instead.
+(node:12258) [DEP0096] DeprecationWarning: timers.unenroll() is deprecated. Please use clearTimeout instead.
+npm ERR! missing script: start
+
+npm ERR! A complete log of this run can be found in:
+npm ERR!     /home/careerpointap/.npm/_logs/2019-12-06T04_51_16_098Z-debug.log
+CARRER API Server is listening at http://0.0.0.0:7002
+Heello world!!!!
+select * from ntfcn_lst_t where ntfcn_typ='c';
+(node:12642) [DEP0095] DeprecationWarning: timers.enroll() is deprecated. Please use setTimeout instead.
+(node:12642) [DEP0096] DeprecationWarning: timers.unenroll() is deprecated. Please use clearTimeout instead.
+Heello world!!!!
+select * from ntfcn_lst_t where ntfcn_typ='c';
+Heello world!!!!
+select * from ntfcn_lst_t where ntfcn_typ='c';
+Heello world!!!!
+select * from ntfcn_lst_t where ntfcn_typ='c';
+Heello world!!!!
+select * from ntfcn_lst_t where ntfcn_typ='c';
+Heello world!!!!
+select * from ntfcn_lst_t where ntfcn_typ='c';
+Heello world!!!!
+select * from ntfcn_lst_t where ntfcn_typ='c';
+Heello world!!!!
+select * from ntfcn_lst_t where ntfcn_typ='c';
+Heello world!!!!
+select * from ntfcn_lst_t where ntfcn_typ='c';
+Heello world!!!!
+select * from ntfcn_lst_t where ntfcn_typ='c';
+Heello world!!!!
+select * from ntfcn_lst_t where ntfcn_typ='c';
+Heello world!!!!
+select * from ntfcn_lst_t where ntfcn_typ='c';
+Heello world!!!!
+select * from ntfcn_lst_t where ntfcn_typ='c';
+Heello world!!!!
+select * from ntfcn_lst_t where ntfcn_typ='c';
+Heello world!!!!
+select * from ntfcn_lst_t where ntfcn_typ='c';
+Heello world!!!!
+select * from ntfcn_lst_t where ntfcn_typ='c';
+Heello world!!!!
+select * from ntfcn_lst_t where ntfcn_typ='c';
+Heello world!!!!
+select * from ntfcn_lst_t where ntfcn_typ='c';
+Heello world!!!!
+select * from ntfcn_lst_t where ntfcn_typ='c';
+Heello world!!!!
+select * from ntfcn_lst_t where ntfcn_typ='c';
+Heello world!!!!
+select * from ntfcn_lst_t where ntfcn_typ='c';
+npm ERR! missing script: start
+
+npm ERR! A complete log of this run can be found in:
+npm ERR!     /home/careerpointap/.npm/_logs/2019-12-06T05_22_47_579Z-debug.log
+CARRER API Server is listening at http://0.0.0.0:7002
+Heello world!!!!
+select * from ntfcn_lst_t where ntfcn_typ='c';
+(node:13816) [DEP0095] DeprecationWarning: timers.enroll() is deprecated. Please use setTimeout instead.
+(node:13816) [DEP0096] DeprecationWarning: timers.unenroll() is deprecated. Please use clearTimeout instead.
+Heello world!!!!
+select * from ntfcn_lst_t where ntfcn_typ='c';
+{ ac_board: 'ssc',
+  ac_class: 'hj',
+  ac_location: 'hgj',
+  ac_school_nm: 'ghjhgj',
+  address: 'jn road',
+  city: 'rjy',
+  date_of_birth: '2019-12-18',
+  district: 'est',
+  email: 'gorthy@gmail.com',
+  enter_current_class: '10thssc',
+  enter_date: '2019-12-06',
+  father_name: 'gbs subrahmanyam',
+  father_ph_num: 1234567890,
+  full_name: 'swetha',
+  gender: 'female',
+  cl_medium: 'english',
+  mother_ph_num: 67878678,
+  nas_address: 'jhkjhk',
+  nas_board: 'cbse',
+  nas_city: '7868',
+  nas_cord_name: 'gfhgh',
+  nas_district: 'jkjhk',
+  'nasemail:': 'jhkhlk@gmail.com',
+  nas_mobile1: 6786878,
+  nas_mobile2: 756767657,
+  nas_pincode: 7868,
+  nas_principal_nm: 'ghfgh',
+  nas_school_name: 'ghjghj',
+  nas_state: 'jkjklkjl',
+  pin_code: 53313,
+  roll_number: 1234567,
+  serial_no: 1234,
+  state: 'ap',
+  test_center_perf: 'rajahmundry',
+  test_date: '2019-12-10' }
+insert into admission_test(ac_board,ac_class,ac_location,ac_school_nm,address,city,date_of_birth,
+		district,email,enter_current_class,enter_date,father_name,father_ph_num,full_name,gender,cl_medium, mother_ph_num,
+		nas_address,nas_board,nas_city,nas_cord_name,nas_district,nasemail,nas_mobile1,nas_mobile2,nas_pincode,nas_principal_nm,
+		nas_school_name,nas_state,pin_code,roll_number,serial_no,state,test_center_perf,test_date,d_ind,i_ts) values
+		('ssc','hj','hgj','ghjhgj','jn road','rjy',
+		'2019-12-18','est','gorthy@gmail.com','10thssc','2019-12-06',
+		'gbs subrahmanyam','1234567890','swetha','female','english','67878678',
+		'jhkjhk','cbse','7868','gfhgh','jkjhk','undefined',
+		'6786878','756767657','7868','ghfgh','ghjghj',
+		'jkjklkjl','53313','1234567','1234','ap','rajahmundry',
+		'2019-12-10','0','2019-12-06 10:58:40')
+{ Error: WARN_DATA_TRUNCATED: Data truncated for column 'i_ts' at row 1
+    at Query.Sequence._packetToError (/home/careerpointap/careerpointapi/node_modules/mysql/lib/protocol/sequences/Sequence.js:52:14)
+    at Query.ErrorPacket (/home/careerpointap/careerpointapi/node_modules/mysql/lib/protocol/sequences/Query.js:77:18)
+    at Protocol._parsePacket (/home/careerpointap/careerpointapi/node_modules/mysql/lib/protocol/Protocol.js:279:23)
+    at Parser.write (/home/careerpointap/careerpointapi/node_modules/mysql/lib/protocol/Parser.js:76:12)
+    at Protocol.write (/home/careerpointap/careerpointapi/node_modules/mysql/lib/protocol/Protocol.js:39:16)
+    at Socket.<anonymous> (/home/careerpointap/careerpointapi/node_modules/mysql/lib/Connection.js:103:28)
+    at Socket.emit (events.js:182:13)
+    at Socket.EventEmitter.emit (domain.js:442:20)
+    at addChunk (_stream_readable.js:283:12)
+    at readableAddChunk (_stream_readable.js:264:11)
+    --------------------
+    at Protocol._enqueue (/home/careerpointap/careerpointapi/node_modules/mysql/lib/protocol/Protocol.js:145:48)
+    at PoolConnection.query (/home/careerpointap/careerpointapi/node_modules/mysql/lib/Connection.js:208:25)
+    at /home/careerpointap/careerpointapi/utils/dbutils.js:9:36
+    at Ping.onOperationComplete [as _callback] (/home/careerpointap/careerpointapi/node_modules/mysql/lib/Pool.js:110:5)
+    at Ping.Sequence.end (/home/careerpointap/careerpointapi/node_modules/mysql/lib/protocol/sequences/Sequence.js:88:24)
+    at Ping.Sequence.OkPacket (/home/careerpointap/careerpointapi/node_modules/mysql/lib/protocol/sequences/Sequence.js:97:8)
+    at Protocol._parsePacket (/home/careerpointap/careerpointapi/node_modules/mysql/lib/protocol/Protocol.js:279:23)
+    at Parser.write (/home/careerpointap/careerpointapi/node_modules/mysql/lib/protocol/Parser.js:76:12)
+    at Protocol.write (/home/careerpointap/careerpointapi/node_modules/mysql/lib/protocol/Protocol.js:39:16)
+    at Socket.<anonymous> (/home/careerpointap/careerpointapi/node_modules/mysql/lib/Connection.js:103:28)
+  code: 'WARN_DATA_TRUNCATED',
+  errno: 1265,
+  sqlMessage: 'Data truncated for column \'i_ts\' at row 1',
+  sqlState: '01000',
+  index: 0,
+  sql:
+   'insert into admission_test(ac_board,ac_class,ac_location,ac_school_nm,address,city,date_of_birth,\n\t\tdistrict,email,enter_current_class,enter_date,father_name,father_ph_num,full_name,gender,cl_medium, mother_ph_num,\n\t\tnas_address,nas_board,nas_city,nas_cord_name,nas_district,nasemail,nas_mobile1,nas_mobile2,nas_pincode,nas_principal_nm,\n\t\tnas_school_name,nas_state,pin_code,roll_number,serial_no,state,test_center_perf,test_date,d_ind,i_ts) values\n\t\t(\'ssc\',\'hj\',\'hgj\',\'ghjhgj\',\'jn road\',\'rjy\',\n\t\t\'2019-12-18\',\'est\',\'gorthy@gmail.com\',\'10thssc\',\'2019-12-06\',\n\t\t\'gbs subrahmanyam\',\'1234567890\',\'swetha\',\'female\',\'english\',\'67878678\',\n\t\t\'jhkjhk\',\'cbse\',\'7868\',\'gfhgh\',\'jkjhk\',\'undefined\',\n\t\t\'6786878\',\'756767657\',\'7868\',\'ghfgh\',\'ghjghj\',\n\t\t\'jkjklkjl\',\'53313\',\'1234567\',\'1234\',\'ap\',\'rajahmundry\',\n\t\t\'2019-12-10\',\'0\',\'2019-12-06 10:58:40\')' }
+Fri, 06 Dec 2019 05:28:40 GMT express deprecated res.send(status, body): Use res.status(status).send(body) instead at controllers/mainCtrl.js:7499:17
+npm ERR! missing script: start
+
+npm ERR! A complete log of this run can be found in:
+npm ERR!     /home/careerpointap/.npm/_logs/2019-12-06T10_10_19_808Z-debug.log
+CARRER API Server is listening at http://0.0.0.0:7002
+Heello world!!!!
+select * from ntfcn_lst_t where ntfcn_typ='c';
+(node:24010) [DEP0095] DeprecationWarning: timers.enroll() is deprecated. Please use setTimeout instead.
+(node:24010) [DEP0096] DeprecationWarning: timers.unenroll() is deprecated. Please use clearTimeout instead.
+select * from  cp_teacher_dtl_tbl as t join cp_section_dt_tbl as sc on t.secn_id= sc.s_id join cls_dtl_t as c on c.cls_id = t.cls_id
+	where t.d_in <> 1;
+select * from  cp_teacher_dtl_tbl as t join cp_section_dt_tbl as sc on t.secn_id= sc.s_id join cls_dtl_t as c on c.cls_id = t.cls_id
+	where t.d_in <> 1;
+Heello world!!!!
+select * from ntfcn_lst_t where ntfcn_typ='c';
+Heello world!!!!
+select * from ntfcn_lst_t where ntfcn_typ='c';
+Heello world!!!!
+select * from ntfcn_lst_t where ntfcn_typ='c';
+Heello world!!!!
+select * from ntfcn_lst_t where ntfcn_typ='c';
+Heello world!!!!
+select * from ntfcn_lst_t where ntfcn_typ='c';
+Heello world!!!!
+select * from ntfcn_lst_t where ntfcn_typ='c';
+Heello world!!!!
+select * from ntfcn_lst_t where ntfcn_typ='c';
+Heello world!!!!
+select * from ntfcn_lst_t where ntfcn_typ='c';
+Heello world!!!!
+select * from ntfcn_lst_t where ntfcn_typ='c';
+Heello world!!!!
+select * from ntfcn_lst_t where ntfcn_typ='c';
+Heello world!!!!
+select * from ntfcn_lst_t where ntfcn_typ='c';
+Heello world!!!!
+select * from ntfcn_lst_t where ntfcn_typ='c';
+{ address: 'sdfsd',
+  city: 'fdsfsdf',
+  date_of_birth: '2019-12-10',
+  district: 'sdfsdfd',
+  email: 'fdgdg@gmail.com',
+  enter_current_class: '8th',
+  father_name: 'sdfsdf',
+  father_ph_num: 56456456,
+  full_name: 'dsfsdf',
+  gender: 'male',
+  mother_ph_num: 56456,
+  nas_address: 'ghf',
+  nas_board: 'cbse',
+  nas_city: 'fghfg',
+  nas_district: 'ghfgh',
+  'nasemail:': 'hgfh@gmail.com',
+  nas_mobile1: 45345,
+  nas_mobile2: 5645645656,
+  nas_pincode: 435345,
+  nas_principal_nm: 'ghhfgh',
+  nas_school_name: 'ghfgh',
+  nas_state: 'hgfhfg',
+  pin_code: '5646',
+  state: 'dsfdf',
+  test_center_perf: 'Rajahmundry' }
+insert into admission_test(address,city,date_of_birth,
+		district,email,enter_current_class,enter_date,father_name,father_ph_num,full_name,gender, mother_ph_num,
+		nas_address,nas_board,nas_city,nas_district,nasemail,nas_mobile1,nas_mobile2,nas_pincode,nas_principal_nm,
+		nas_school_name,nas_state,pin_code,state,test_center_perf,test_date,d_ind) values
+		('sdfsd','fdsfsdf',
+		'2019-12-10','sdfsdfd','fdgdg@gmail.com','8th','undefined',
+		'sdfsdf','56456456','dsfsdf','male','56456',
+		'ghf','cbse','fghfg','ghfgh','undefined',
+		'45345','5645645656','435345','ghhfgh','ghfgh',
+		'hgfhfg','5646','dsfdf','Rajahmundry',
+		'undefined','0')
+Heello world!!!!
+select * from ntfcn_lst_t where ntfcn_typ='c';
+Heello world!!!!
+select * from ntfcn_lst_t where ntfcn_typ='c';
+Heello world!!!!
+select * from ntfcn_lst_t where ntfcn_typ='c';
+Heello world!!!!
+select * from ntfcn_lst_t where ntfcn_typ='c';
+npm ERR! missing script: start
+
+npm ERR! A complete log of this run can be found in:
+npm ERR!     /home/careerpointap/.npm/_logs/2019-12-06T14_33_57_108Z-debug.log
+CARRER API Server is listening at http://0.0.0.0:7002
+(node:1659) [DEP0095] DeprecationWarning: timers.enroll() is deprecated. Please use setTimeout instead.
+(node:1659) [DEP0096] DeprecationWarning: timers.unenroll() is deprecated. Please use clearTimeout instead.
+{ Error: ER_NO_SUCH_TABLE: Table 'careerpo_db.usr_pckg_tst_rel_t' doesn't exist
+    at Query.Sequence._packetToError (/home/careerpointap/careerpointapi/node_modules/mysql/lib/protocol/sequences/Sequence.js:52:14)
+    at Query.ErrorPacket (/home/careerpointap/careerpointapi/node_modules/mysql/lib/protocol/sequences/Query.js:77:18)
+    at Protocol._parsePacket (/home/careerpointap/careerpointapi/node_modules/mysql/lib/protocol/Protocol.js:279:23)
+    at Parser.write (/home/careerpointap/careerpointapi/node_modules/mysql/lib/protocol/Parser.js:76:12)
+    at Protocol.write (/home/careerpointap/careerpointapi/node_modules/mysql/lib/protocol/Protocol.js:39:16)
+    at Socket.<anonymous> (/home/careerpointap/careerpointapi/node_modules/mysql/lib/Connection.js:103:28)
+    at Socket.emit (events.js:182:13)
+    at Socket.EventEmitter.emit (domain.js:442:20)
+    at addChunk (_stream_readable.js:283:12)
+    at readableAddChunk (_stream_readable.js:264:11)
+    --------------------
+    at Protocol._enqueue (/home/careerpointap/careerpointapi/node_modules/mysql/lib/protocol/Protocol.js:145:48)
+    at PoolConnection.query (/home/careerpointap/careerpointapi/node_modules/mysql/lib/Connection.js:208:25)
+    at /home/careerpointap/careerpointapi/utils/dbutils.js:9:36
+    at Handshake.onConnect [as _callback] (/home/careerpointap/careerpointapi/node_modules/mysql/lib/Pool.js:64:7)
+    at Handshake.Sequence.end (/home/careerpointap/careerpointapi/node_modules/mysql/lib/protocol/sequences/Sequence.js:88:24)
+    at Handshake.Sequence.OkPacket (/home/careerpointap/careerpointapi/node_modules/mysql/lib/protocol/sequences/Sequence.js:97:8)
+    at Protocol._parsePacket (/home/careerpointap/careerpointapi/node_modules/mysql/lib/protocol/Protocol.js:279:23)
+    at Parser.write (/home/careerpointap/careerpointapi/node_modules/mysql/lib/protocol/Parser.js:76:12)
+    at Protocol.write (/home/careerpointap/careerpointapi/node_modules/mysql/lib/protocol/Protocol.js:39:16)
+    at Socket.<anonymous> (/home/careerpointap/careerpointapi/node_modules/mysql/lib/Connection.js:103:28)
+  code: 'ER_NO_SUCH_TABLE',
+  errno: 1146,
+  sqlMessage: 'Table \'careerpo_db.usr_pckg_tst_rel_t\' doesn\'t exist',
+  sqlState: '42S02',
+  index: 0,
+  sql:
+   '\n\t\tSELECT count(*)*2 as cnt,ss.clnt_id FROM usr_pckg_tst_rel_t as upt\n\t\tJOIN stu_signup_dtl_t as ss on ss.usr_id = upt.usr_id AND clnt_id <> 1\n\t\tWHERE strt_in = 1 AND DATE_FORMAT(start_tm, "%Y-%m-%d") = CURDATE() - INTERVAL 2 day GROUP BY ss.clnt_id;\t\n\t' }
+/home/careerpointap/careerpointapi/node_modules/mysql/lib/protocol/Parser.js:80
+        throw err; // Rethrow non-MySQL errors
+        ^
+
+TypeError: Cannot read property 'send' of undefined
+    at /home/careerpointap/careerpointapi/controllers/mainCtrl.js:5197:17
+    at /home/careerpointap/careerpointapi/models/mainModel.js:3377:4
+    at Query._callback (/home/careerpointap/careerpointapi/utils/dbutils.js:11:59)
+    at Query.Sequence.end (/home/careerpointap/careerpointapi/node_modules/mysql/lib/protocol/sequences/Sequence.js:88:24)
+    at Query.ErrorPacket (/home/careerpointap/careerpointapi/node_modules/mysql/lib/protocol/sequences/Query.js:90:8)
+    at Protocol._parsePacket (/home/careerpointap/careerpointapi/node_modules/mysql/lib/protocol/Protocol.js:279:23)
+    at Parser.write (/home/careerpointap/careerpointapi/node_modules/mysql/lib/protocol/Parser.js:76:12)
+    at Protocol.write (/home/careerpointap/careerpointapi/node_modules/mysql/lib/protocol/Protocol.js:39:16)
+    at Socket.<anonymous> (/home/careerpointap/careerpointapi/node_modules/mysql/lib/Connection.js:103:28)
+    at Socket.emit (events.js:182:13)
+npm ERR! missing script: start
+
+npm ERR! A complete log of this run can be found in:
+npm ERR!     /home/careerpointap/.npm/_logs/2019-12-07T10_13_01_386Z-debug.log
+CARRER API Server is listening at http://0.0.0.0:7002
+Heello world!!!!
+select * from ntfcn_lst_t where ntfcn_typ='c';
+(node:7915) [DEP0095] DeprecationWarning: timers.enroll() is deprecated. Please use setTimeout instead.
+(node:7915) [DEP0096] DeprecationWarning: timers.unenroll() is deprecated. Please use clearTimeout instead.
+Heello world!!!!
+select * from ntfcn_lst_t where ntfcn_typ='c';
+gettingRandomNb
+SELECT * FROM admission_test ORDER BY id DESC LIMIT 1;
+10125
+10125
+insert into admission_test(serial_no,address,city,date_of_birth,
+		district,email,enter_current_class,enter_date,father_name,father_ph_num,full_name,gender, mother_ph_num,
+		nas_address,nas_board,nas_city,nas_district,nasemail,nas_mobile1,nas_mobile2,nas_pincode,nas_principal_nm,
+		nas_school_name,nas_state,pin_code,state,test_center_perf,test_date,d_ind) values
+		('10125','jn road','rjy',
+		'2019-12-05','gfh','hjg@gmail.com','11th','2019-12-07 15:44:43',
+		'gbs','756767','Gorthy swetha','female','123456789',
+		'7khjk','cbse','jhkjk','jhkhjk','undefined',
+		'7893785540','676','6765878','ghfh','ghfh',
+		'jhkhjk','h6757','fghfg','Rajahmundry',
+		'05-01-2020','0')
+OkPacket {
+  fieldCount: 0,
+  affectedRows: 1,
+  insertId: 25,
+  serverStatus: 2,
+  warningCount: 0,
+  message: '',
+  protocol41: true,
+  changedRows: 0 }
+25
+gettingRandomNb
+SELECT * FROM admission_test where id='25';
+Heello world!!!!
+select * from ntfcn_lst_t where ntfcn_typ='c';
+Heello world!!!!
+{ name: 'dsfd',
+  mail: 'gorthyswetha@gmail.com',
+  number: '7893785540',
+  stream: '1',
+  class: '2',
+  center: '2' }
+coming into the data!!!!!!!!
+insert into onln_register (reg_nm,reg_mail,reg_phnm,stream,class,center) values('dsfd','gorthyswetha@gmail.com','7893785540','1','2','2');
+Heello world!!!!
+select * from ntfcn_lst_t where ntfcn_typ='c';
+Heello world!!!!
+select * from ntfcn_lst_t where ntfcn_typ='c';
+Heello world!!!!
+select * from ntfcn_lst_t where ntfcn_typ='c';
+Heello world!!!!
+select * from ntfcn_lst_t where ntfcn_typ='c';
+Heello world!!!!
+select * from ntfcn_lst_t where ntfcn_typ='c';
+gettingRandomNb
+SELECT * FROM admission_test ORDER BY id DESC LIMIT 1;
+10126
+10126
+insert into admission_test(serial_no,address,city,date_of_birth,
+		district,email,enter_current_class,enter_date,father_name,father_ph_num,full_name,gender, mother_ph_num,
+		nas_address,nas_board,nas_city,nas_district,nasemail,nas_mobile1,nas_mobile2,nas_pincode,nas_principal_nm,
+		nas_school_name,nas_state,pin_code,state,test_center_perf,test_date,d_ind) values
+		('10126','undefined','undefined',
+		'undefined','undefined','undefined','10th','2019-12-07 15:51:14',
+		'undefined','9003101274','Nithin','male','undefined',
+		'undefined','stateboard','undefined','undefined','undefined',
+		'undefined','undefined','undefined','undefined','PSR Public School',
+		'undefined','undefined','undefined','Rajahmundry',
+		'05-01-2020','0')
+OkPacket {
+  fieldCount: 0,
+  affectedRows: 1,
+  insertId: 26,
+  serverStatus: 2,
+  warningCount: 0,
+  message: '',
+  protocol41: true,
+  changedRows: 0 }
+26
+gettingRandomNb
+SELECT * FROM admission_test where id='26';
+Heello world!!!!
+select * from ntfcn_lst_t where ntfcn_typ='c';
+Heello world!!!!
+select * from ntfcn_lst_t where ntfcn_typ='c';
+Heello world!!!!
+select * from ntfcn_lst_t where ntfcn_typ='c';
+Heello world!!!!
+select * from ntfcn_lst_t where ntfcn_typ='c';
+Heello world!!!!
+select * from ntfcn_lst_t where ntfcn_typ='c';
+Heello world!!!!
+select * from ntfcn_lst_t where ntfcn_typ='c';
+Heello world!!!!
+select * from ntfcn_lst_t where ntfcn_typ='c';
+Heello world!!!!
+select * from ntfcn_lst_t where ntfcn_typ='c';
+{ Error: ER_NO_SUCH_TABLE: Table 'careerpo_db.usr_pckg_tst_rel_t' doesn't exist
+    at Query.Sequence._packetToError (/home/careerpointap/careerpointapi/node_modules/mysql/lib/protocol/sequences/Sequence.js:52:14)
+    at Query.ErrorPacket (/home/careerpointap/careerpointapi/node_modules/mysql/lib/protocol/sequences/Query.js:77:18)
+    at Protocol._parsePacket (/home/careerpointap/careerpointapi/node_modules/mysql/lib/protocol/Protocol.js:279:23)
+    at Parser.write (/home/careerpointap/careerpointapi/node_modules/mysql/lib/protocol/Parser.js:76:12)
+    at Protocol.write (/home/careerpointap/careerpointapi/node_modules/mysql/lib/protocol/Protocol.js:39:16)
+    at Socket.<anonymous> (/home/careerpointap/careerpointapi/node_modules/mysql/lib/Connection.js:103:28)
+    at Socket.emit (events.js:182:13)
+    at Socket.EventEmitter.emit (domain.js:442:20)
+    at addChunk (_stream_readable.js:283:12)
+    at readableAddChunk (_stream_readable.js:264:11)
+    --------------------
+    at Protocol._enqueue (/home/careerpointap/careerpointapi/node_modules/mysql/lib/protocol/Protocol.js:145:48)
+    at PoolConnection.query (/home/careerpointap/careerpointapi/node_modules/mysql/lib/Connection.js:208:25)
+    at /home/careerpointap/careerpointapi/utils/dbutils.js:9:36
+    at Ping.onOperationComplete [as _callback] (/home/careerpointap/careerpointapi/node_modules/mysql/lib/Pool.js:110:5)
+    at Ping.Sequence.end (/home/careerpointap/careerpointapi/node_modules/mysql/lib/protocol/sequences/Sequence.js:88:24)
+    at Ping.Sequence.OkPacket (/home/careerpointap/careerpointapi/node_modules/mysql/lib/protocol/sequences/Sequence.js:97:8)
+    at Protocol._parsePacket (/home/careerpointap/careerpointapi/node_modules/mysql/lib/protocol/Protocol.js:279:23)
+    at Parser.write (/home/careerpointap/careerpointapi/node_modules/mysql/lib/protocol/Parser.js:76:12)
+    at Protocol.write (/home/careerpointap/careerpointapi/node_modules/mysql/lib/protocol/Protocol.js:39:16)
+    at Socket.<anonymous> (/home/careerpointap/careerpointapi/node_modules/mysql/lib/Connection.js:103:28)
+  code: 'ER_NO_SUCH_TABLE',
+  errno: 1146,
+  sqlMessage: 'Table \'careerpo_db.usr_pckg_tst_rel_t\' doesn\'t exist',
+  sqlState: '42S02',
+  index: 0,
+  sql:
+   '\n\t\tSELECT count(*)*2 as cnt,ss.clnt_id FROM usr_pckg_tst_rel_t as upt\n\t\tJOIN stu_signup_dtl_t as ss on ss.usr_id = upt.usr_id AND clnt_id <> 1\n\t\tWHERE strt_in = 1 AND DATE_FORMAT(start_tm, "%Y-%m-%d") = CURDATE() - INTERVAL 2 day GROUP BY ss.clnt_id;\t\n\t' }
+/home/careerpointap/careerpointapi/node_modules/mysql/lib/protocol/Parser.js:80
+        throw err; // Rethrow non-MySQL errors
+        ^
+
+TypeError: Cannot read property 'send' of undefined
+    at /home/careerpointap/careerpointapi/controllers/mainCtrl.js:5197:17
+    at /home/careerpointap/careerpointapi/models/mainModel.js:3377:4
+    at Query._callback (/home/careerpointap/careerpointapi/utils/dbutils.js:11:59)
+    at Query.Sequence.end (/home/careerpointap/careerpointapi/node_modules/mysql/lib/protocol/sequences/Sequence.js:88:24)
+    at Query.ErrorPacket (/home/careerpointap/careerpointapi/node_modules/mysql/lib/protocol/sequences/Query.js:90:8)
+    at Protocol._parsePacket (/home/careerpointap/careerpointapi/node_modules/mysql/lib/protocol/Protocol.js:279:23)
+    at Parser.write (/home/careerpointap/careerpointapi/node_modules/mysql/lib/protocol/Parser.js:76:12)
+    at Protocol.write (/home/careerpointap/careerpointapi/node_modules/mysql/lib/protocol/Protocol.js:39:16)
+    at Socket.<anonymous> (/home/careerpointap/careerpointapi/node_modules/mysql/lib/Connection.js:103:28)
+    at Socket.emit (events.js:182:13)
+CARRER API Server is listening at http://0.0.0.0:7002
+npm ERR! missing script: start
+
+npm ERR! A complete log of this run can be found in:
+npm ERR!     /home/careerpointap/.npm/_logs/2019-12-09T13_10_05_738Z-debug.log
+events.js:167
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: listen EADDRINUSE 0.0.0.0:7002
+    at Server.setupListenHandle [as _listen2] (net.js:1328:14)
+    at listenInCluster (net.js:1376:12)
+    at Server.listen (net.js:1463:7)
+    at Function.listen (/home/careerpointap/careerpointapi/node_modules/express/lib/application.js:618:24)
+    at Object.<anonymous> (/home/careerpointap/careerpointapi/app.js:63:18)
+    at Module._compile (internal/modules/cjs/loader.js:702:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:713:10)
+    at Module.load (internal/modules/cjs/loader.js:612:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:551:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:543:3)
+Emitted 'error' event at:
+    at emitErrorNT (net.js:1355:8)
+    at process._tickCallback (internal/process/next_tick.js:63:19)
+    at Function.Module.runMain (internal/modules/cjs/loader.js:746:11)
+    at startup (internal/bootstrap/node.js:240:19)
+    at bootstrapNodeJSCore (internal/bootstrap/node.js:564:3)
+Heello world!!!!
+select * from ntfcn_lst_t where ntfcn_typ='c';
+(node:18043) [DEP0095] DeprecationWarning: timers.enroll() is deprecated. Please use setTimeout instead.
+(node:18043) [DEP0096] DeprecationWarning: timers.unenroll() is deprecated. Please use clearTimeout instead.
+Heello world!!!!
+select * from ntfcn_lst_t where ntfcn_typ='c';
+{ Error: ER_NO_SUCH_TABLE: Table 'careerpo_db.usr_pckg_tst_rel_t' doesn't exist
+    at Query.Sequence._packetToError (/home/careerpointap/careerpointapi/node_modules/mysql/lib/protocol/sequences/Sequence.js:52:14)
+    at Query.ErrorPacket (/home/careerpointap/careerpointapi/node_modules/mysql/lib/protocol/sequences/Query.js:77:18)
+    at Protocol._parsePacket (/home/careerpointap/careerpointapi/node_modules/mysql/lib/protocol/Protocol.js:279:23)
+    at Parser.write (/home/careerpointap/careerpointapi/node_modules/mysql/lib/protocol/Parser.js:76:12)
+    at Protocol.write (/home/careerpointap/careerpointapi/node_modules/mysql/lib/protocol/Protocol.js:39:16)
+    at Socket.<anonymous> (/home/careerpointap/careerpointapi/node_modules/mysql/lib/Connection.js:103:28)
+    at Socket.emit (events.js:182:13)
+    at Socket.EventEmitter.emit (domain.js:442:20)
+    at addChunk (_stream_readable.js:283:12)
+    at readableAddChunk (_stream_readable.js:264:11)
+    --------------------
+    at Protocol._enqueue (/home/careerpointap/careerpointapi/node_modules/mysql/lib/protocol/Protocol.js:145:48)
+    at PoolConnection.query (/home/careerpointap/careerpointapi/node_modules/mysql/lib/Connection.js:208:25)
+    at /home/careerpointap/careerpointapi/utils/dbutils.js:9:36
+    at Ping.onOperationComplete [as _callback] (/home/careerpointap/careerpointapi/node_modules/mysql/lib/Pool.js:110:5)
+    at Ping.Sequence.end (/home/careerpointap/careerpointapi/node_modules/mysql/lib/protocol/sequences/Sequence.js:88:24)
+    at Ping.Sequence.OkPacket (/home/careerpointap/careerpointapi/node_modules/mysql/lib/protocol/sequences/Sequence.js:97:8)
+    at Protocol._parsePacket (/home/careerpointap/careerpointapi/node_modules/mysql/lib/protocol/Protocol.js:279:23)
+    at Parser.write (/home/careerpointap/careerpointapi/node_modules/mysql/lib/protocol/Parser.js:76:12)
+    at Protocol.write (/home/careerpointap/careerpointapi/node_modules/mysql/lib/protocol/Protocol.js:39:16)
+    at Socket.<anonymous> (/home/careerpointap/careerpointapi/node_modules/mysql/lib/Connection.js:103:28)
+  code: 'ER_NO_SUCH_TABLE',
+  errno: 1146,
+  sqlMessage: 'Table \'careerpo_db.usr_pckg_tst_rel_t\' doesn\'t exist',
+  sqlState: '42S02',
+  index: 0,
+  sql:
+   '\n\t\tSELECT count(*)*2 as cnt,ss.clnt_id FROM usr_pckg_tst_rel_t as upt\n\t\tJOIN stu_signup_dtl_t as ss on ss.usr_id = upt.usr_id AND clnt_id <> 1\n\t\tWHERE strt_in = 1 AND DATE_FORMAT(start_tm, "%Y-%m-%d") = CURDATE() - INTERVAL 2 day GROUP BY ss.clnt_id;\t\n\t' }
+/home/careerpointap/careerpointapi/node_modules/mysql/lib/protocol/Parser.js:80
+        throw err; // Rethrow non-MySQL errors
+        ^
+
+TypeError: Cannot read property 'send' of undefined
+    at /home/careerpointap/careerpointapi/controllers/mainCtrl.js:5197:17
+    at /home/careerpointap/careerpointapi/models/mainModel.js:3377:4
+    at Query._callback (/home/careerpointap/careerpointapi/utils/dbutils.js:11:59)
+    at Query.Sequence.end (/home/careerpointap/careerpointapi/node_modules/mysql/lib/protocol/sequences/Sequence.js:88:24)
+    at Query.ErrorPacket (/home/careerpointap/careerpointapi/node_modules/mysql/lib/protocol/sequences/Query.js:90:8)
+    at Protocol._parsePacket (/home/careerpointap/careerpointapi/node_modules/mysql/lib/protocol/Protocol.js:279:23)
+    at Parser.write (/home/careerpointap/careerpointapi/node_modules/mysql/lib/protocol/Parser.js:76:12)
+    at Protocol.write (/home/careerpointap/careerpointapi/node_modules/mysql/lib/protocol/Protocol.js:39:16)
+    at Socket.<anonymous> (/home/careerpointap/careerpointapi/node_modules/mysql/lib/Connection.js:103:28)
+    at Socket.emit (events.js:182:13)
+npm ERR! missing script: start
+
+npm ERR! A complete log of this run can be found in:
+npm ERR!     /home/careerpointap/.npm/_logs/2019-12-10T04_01_49_490Z-debug.log
+CARRER API Server is listening at http://0.0.0.0:7002
+(node:15079) [DEP0095] DeprecationWarning: timers.enroll() is deprecated. Please use setTimeout instead.
+(node:15079) [DEP0096] DeprecationWarning: timers.unenroll() is deprecated. Please use clearTimeout instead.
+npm ERR! missing script: start
+
+npm ERR! A complete log of this run can be found in:
+npm ERR!     /home/careerpointap/.npm/_logs/2019-12-10T04_28_26_665Z-debug.log
+npm ERR! missing script: start
+
+npm ERR! A complete log of this run can be found in:
+npm ERR!     /home/careerpointap/.npm/_logs/2019-12-10T04_28_52_278Z-debug.log
+CARRER API Server is listening at http://0.0.0.0:7002
+(node:16234) [DEP0095] DeprecationWarning: timers.enroll() is deprecated. Please use setTimeout instead.
+(node:16234) [DEP0096] DeprecationWarning: timers.unenroll() is deprecated. Please use clearTimeout instead.
+Heello world!!!!
+select * from ntfcn_lst_t where ntfcn_typ='c';
+Heello world!!!!
+select * from ntfcn_lst_t where ntfcn_typ='c';
+Heello world!!!!
+select * from ntfcn_lst_t where ntfcn_typ='c';
+Heello world!!!!
+select * from ntfcn_lst_t where ntfcn_typ='c';
+gettingRandomNb
+SELECT * FROM admission_test ORDER BY id DESC LIMIT 1;
+10127
+10127
+insert into admission_test(serial_no,address,city,date_of_birth,
+		district,email,enter_current_class,enter_date,father_name,father_ph_num,full_name,gender, mother_ph_num,
+		nas_address,nas_board,nas_city,nas_district,nasemail,nas_mobile1,nas_mobile2,nas_pincode,nas_principal_nm,
+		nas_school_name,nas_state,pin_code,state,test_center_perf,test_date,d_ind) values
+		('10127','DEF','RJY',
+		'2019-12-10','EAST GODAVARI','siva@gmail.com','12th','2019-12-10 10:37:53',
+		'ABCD','888966657','Siva','female','123456789',
+		'undefined','stateboard','undefined','undefined','undefined',
+		'7893785540','123456789','undefined','Ajay kumar','bhashyam',
+		'undefined','533103','AP','Rajahmundry',
+		'05-01-2020','0')
+OkPacket {
+  fieldCount: 0,
+  affectedRows: 1,
+  insertId: 27,
+  serverStatus: 2,
+  warningCount: 0,
+  message: '',
+  protocol41: true,
+  changedRows: 0 }
+27
+gettingRandomNb
+SELECT * FROM admission_test where id='27';
+npm ERR! missing script: start
+
+npm ERR! A complete log of this run can be found in:
+npm ERR!     /home/careerpointap/.npm/_logs/2019-12-10T05_22_25_172Z-debug.log
+CARRER API Server is listening at http://0.0.0.0:7002
+(node:18030) [DEP0095] DeprecationWarning: timers.enroll() is deprecated. Please use setTimeout instead.
+(node:18030) [DEP0096] DeprecationWarning: timers.unenroll() is deprecated. Please use clearTimeout instead.
+Heello world!!!!
+select * from ntfcn_lst_t where ntfcn_typ='c';
+Heello world!!!!
+select * from ntfcn_lst_t where ntfcn_typ='c';
+Heello world!!!!
+select * from ntfcn_lst_t where ntfcn_typ='c';
+Heello world!!!!
+select * from ntfcn_lst_t where ntfcn_typ='c';
+{ Error: ER_NO_SUCH_TABLE: Table 'careerpo_db.usr_pckg_tst_rel_t' doesn't exist
+    at Query.Sequence._packetToError (/home/careerpointap/careerpointapi/node_modules/mysql/lib/protocol/sequences/Sequence.js:52:14)
+    at Query.ErrorPacket (/home/careerpointap/careerpointapi/node_modules/mysql/lib/protocol/sequences/Query.js:77:18)
+    at Protocol._parsePacket (/home/careerpointap/careerpointapi/node_modules/mysql/lib/protocol/Protocol.js:279:23)
+    at Parser.write (/home/careerpointap/careerpointapi/node_modules/mysql/lib/protocol/Parser.js:76:12)
+    at Protocol.write (/home/careerpointap/careerpointapi/node_modules/mysql/lib/protocol/Protocol.js:39:16)
+    at Socket.<anonymous> (/home/careerpointap/careerpointapi/node_modules/mysql/lib/Connection.js:103:28)
+    at Socket.emit (events.js:182:13)
+    at Socket.EventEmitter.emit (domain.js:442:20)
+    at addChunk (_stream_readable.js:283:12)
+    at readableAddChunk (_stream_readable.js:264:11)
+    --------------------
+    at Protocol._enqueue (/home/careerpointap/careerpointapi/node_modules/mysql/lib/protocol/Protocol.js:145:48)
+    at PoolConnection.query (/home/careerpointap/careerpointapi/node_modules/mysql/lib/Connection.js:208:25)
+    at /home/careerpointap/careerpointapi/utils/dbutils.js:9:36
+    at Handshake.onConnect [as _callback] (/home/careerpointap/careerpointapi/node_modules/mysql/lib/Pool.js:64:7)
+    at Handshake.Sequence.end (/home/careerpointap/careerpointapi/node_modules/mysql/lib/protocol/sequences/Sequence.js:88:24)
+    at Handshake.Sequence.OkPacket (/home/careerpointap/careerpointapi/node_modules/mysql/lib/protocol/sequences/Sequence.js:97:8)
+    at Protocol._parsePacket (/home/careerpointap/careerpointapi/node_modules/mysql/lib/protocol/Protocol.js:279:23)
+    at Parser.write (/home/careerpointap/careerpointapi/node_modules/mysql/lib/protocol/Parser.js:76:12)
+    at Protocol.write (/home/careerpointap/careerpointapi/node_modules/mysql/lib/protocol/Protocol.js:39:16)
+    at Socket.<anonymous> (/home/careerpointap/careerpointapi/node_modules/mysql/lib/Connection.js:103:28)
+  code: 'ER_NO_SUCH_TABLE',
+  errno: 1146,
+  sqlMessage: 'Table \'careerpo_db.usr_pckg_tst_rel_t\' doesn\'t exist',
+  sqlState: '42S02',
+  index: 0,
+  sql:
+   '\n\t\tSELECT count(*)*2 as cnt,ss.clnt_id FROM usr_pckg_tst_rel_t as upt\n\t\tJOIN stu_signup_dtl_t as ss on ss.usr_id = upt.usr_id AND clnt_id <> 1\n\t\tWHERE strt_in = 1 AND DATE_FORMAT(start_tm, "%Y-%m-%d") = CURDATE() - INTERVAL 2 day GROUP BY ss.clnt_id;\t\n\t' }
+/home/careerpointap/careerpointapi/node_modules/mysql/lib/protocol/Parser.js:80
+        throw err; // Rethrow non-MySQL errors
+        ^
+
+TypeError: Cannot read property 'send' of undefined
+    at /home/careerpointap/careerpointapi/controllers/mainCtrl.js:5197:17
+    at /home/careerpointap/careerpointapi/models/mainModel.js:3377:4
+    at Query._callback (/home/careerpointap/careerpointapi/utils/dbutils.js:11:59)
+    at Query.Sequence.end (/home/careerpointap/careerpointapi/node_modules/mysql/lib/protocol/sequences/Sequence.js:88:24)
+    at Query.ErrorPacket (/home/careerpointap/careerpointapi/node_modules/mysql/lib/protocol/sequences/Query.js:90:8)
+    at Protocol._parsePacket (/home/careerpointap/careerpointapi/node_modules/mysql/lib/protocol/Protocol.js:279:23)
+    at Parser.write (/home/careerpointap/careerpointapi/node_modules/mysql/lib/protocol/Parser.js:76:12)
+    at Protocol.write (/home/careerpointap/careerpointapi/node_modules/mysql/lib/protocol/Protocol.js:39:16)
+    at Socket.<anonymous> (/home/careerpointap/careerpointapi/node_modules/mysql/lib/Connection.js:103:28)
+    at Socket.emit (events.js:182:13)
+npm ERR! missing script: start
+
+npm ERR! A complete log of this run can be found in:
+npm ERR!     /home/careerpointap/.npm/_logs/2019-12-11T03_54_34_229Z-debug.log
+npm ERR! missing script: start
+
+npm ERR! A complete log of this run can be found in:
+npm ERR!     /home/careerpointap/.npm/_logs/2019-12-11T03_54_39_295Z-debug.log
+CARRER API Server is listening at http://0.0.0.0:7002
+npm ERR! missing script: start
+
+npm ERR! A complete log of this run can be found in:
+npm ERR!     /home/career/.npm/_logs/2019-12-11T05_44_48_030Z-debug.log
+CARRER API Server is listening at http://0.0.0.0:7002
+(node:6290) [DEP0095] DeprecationWarning: timers.enroll() is deprecated. Please use setTimeout instead.
+{ Error: ER_ACCESS_DENIED_ERROR: Access denied for user 'careerpo_careerpoint'@'localhost' (using password: YES)
+    at Handshake.Sequence._packetToError (/home/career/careerpointapi/node_modules/mysql/lib/protocol/sequences/Sequence.js:52:14)
+    at Handshake.ErrorPacket (/home/career/careerpointapi/node_modules/mysql/lib/protocol/sequences/Handshake.js:130:18)
+    at Protocol._parsePacket (/home/career/careerpointapi/node_modules/mysql/lib/protocol/Protocol.js:279:23)
+    at Parser.write (/home/career/careerpointapi/node_modules/mysql/lib/protocol/Parser.js:76:12)
+    at Protocol.write (/home/career/careerpointapi/node_modules/mysql/lib/protocol/Protocol.js:39:16)
+    at Socket.<anonymous> (/home/career/careerpointapi/node_modules/mysql/lib/Connection.js:103:28)
+    at Socket.emit (events.js:182:13)
+    at Socket.EventEmitter.emit (domain.js:442:20)
+    at addChunk (_stream_readable.js:283:12)
+    at readableAddChunk (_stream_readable.js:264:11)
+    --------------------
+    at Protocol._enqueue (/home/career/careerpointapi/node_modules/mysql/lib/protocol/Protocol.js:145:48)
+    at Protocol.handshake (/home/career/careerpointapi/node_modules/mysql/lib/protocol/Protocol.js:52:23)
+    at PoolConnection.connect (/home/career/careerpointapi/node_modules/mysql/lib/Connection.js:130:18)
+    at Pool.getConnection (/home/career/careerpointapi/node_modules/mysql/lib/Pool.js:48:16)
+    at Object.exports.execQuery (/home/career/careerpointapi/utils/dbutils.js:5:27)
+    at Object.exports.gettingusrLoggedIn (/home/career/careerpointapi/models/mainModel.js:3888:10)
+    at exports.getUsrloginCtrls (/home/career/careerpointapi/controllers/mainCtrl.js:5708:12)
+    at Layer.handle [as handle_request] (/home/career/careerpointapi/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/career/careerpointapi/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/home/career/careerpointapi/node_modules/express/lib/router/route.js:112:3)
+  code: 'ER_ACCESS_DENIED_ERROR',
+  errno: 1045,
+  sqlMessage:
+   'Access denied for user \'careerpo_careerpoint\'@\'localhost\' (using password: YES)',
+  sqlState: '28000',
+  fatal: true }
+(node:6290) [DEP0096] DeprecationWarning: timers.unenroll() is deprecated. Please use clearTimeout instead.
+{ Error: ER_ACCESS_DENIED_ERROR: Access denied for user 'careerpo_careerpoint'@'localhost' (using password: YES)
+    at Handshake.Sequence._packetToError (/home/career/careerpointapi/node_modules/mysql/lib/protocol/sequences/Sequence.js:52:14)
+    at Handshake.ErrorPacket (/home/career/careerpointapi/node_modules/mysql/lib/protocol/sequences/Handshake.js:130:18)
+    at Protocol._parsePacket (/home/career/careerpointapi/node_modules/mysql/lib/protocol/Protocol.js:279:23)
+    at Parser.write (/home/career/careerpointapi/node_modules/mysql/lib/protocol/Parser.js:76:12)
+    at Protocol.write (/home/career/careerpointapi/node_modules/mysql/lib/protocol/Protocol.js:39:16)
+    at Socket.<anonymous> (/home/career/careerpointapi/node_modules/mysql/lib/Connection.js:103:28)
+    at Socket.emit (events.js:182:13)
+    at Socket.EventEmitter.emit (domain.js:442:20)
+    at addChunk (_stream_readable.js:283:12)
+    at readableAddChunk (_stream_readable.js:264:11)
+    --------------------
+    at Protocol._enqueue (/home/career/careerpointapi/node_modules/mysql/lib/protocol/Protocol.js:145:48)
+    at Protocol.handshake (/home/career/careerpointapi/node_modules/mysql/lib/protocol/Protocol.js:52:23)
+    at PoolConnection.connect (/home/career/careerpointapi/node_modules/mysql/lib/Connection.js:130:18)
+    at Pool.getConnection (/home/career/careerpointapi/node_modules/mysql/lib/Pool.js:48:16)
+    at Object.exports.execQuery (/home/career/careerpointapi/utils/dbutils.js:5:27)
+    at Object.exports.gettingusrLoggedIn (/home/career/careerpointapi/models/mainModel.js:3888:10)
+    at exports.getUsrloginCtrls (/home/career/careerpointapi/controllers/mainCtrl.js:5708:12)
+    at Layer.handle [as handle_request] (/home/career/careerpointapi/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/career/careerpointapi/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/home/career/careerpointapi/node_modules/express/lib/router/route.js:112:3)
+  code: 'ER_ACCESS_DENIED_ERROR',
+  errno: 1045,
+  sqlMessage:
+   'Access denied for user \'careerpo_careerpoint\'@\'localhost\' (using password: YES)',
+  sqlState: '28000',
+  fatal: true }
+{ Error: ER_ACCESS_DENIED_ERROR: Access denied for user 'careerpo_careerpoint'@'localhost' (using password: YES)
+    at Handshake.Sequence._packetToError (/home/career/careerpointapi/node_modules/mysql/lib/protocol/sequences/Sequence.js:52:14)
+    at Handshake.ErrorPacket (/home/career/careerpointapi/node_modules/mysql/lib/protocol/sequences/Handshake.js:130:18)
+    at Protocol._parsePacket (/home/career/careerpointapi/node_modules/mysql/lib/protocol/Protocol.js:279:23)
+    at Parser.write (/home/career/careerpointapi/node_modules/mysql/lib/protocol/Parser.js:76:12)
+    at Protocol.write (/home/career/careerpointapi/node_modules/mysql/lib/protocol/Protocol.js:39:16)
+    at Socket.<anonymous> (/home/career/careerpointapi/node_modules/mysql/lib/Connection.js:103:28)
+    at Socket.emit (events.js:182:13)
+    at Socket.EventEmitter.emit (domain.js:442:20)
+    at addChunk (_stream_readable.js:283:12)
+    at readableAddChunk (_stream_readable.js:264:11)
+    --------------------
+    at Protocol._enqueue (/home/career/careerpointapi/node_modules/mysql/lib/protocol/Protocol.js:145:48)
+    at Protocol.handshake (/home/career/careerpointapi/node_modules/mysql/lib/protocol/Protocol.js:52:23)
+    at PoolConnection.connect (/home/career/careerpointapi/node_modules/mysql/lib/Connection.js:130:18)
+    at Pool.getConnection (/home/career/careerpointapi/node_modules/mysql/lib/Pool.js:48:16)
+    at Object.exports.execQuery (/home/career/careerpointapi/utils/dbutils.js:5:27)
+    at Object.exports.gettingusrLoggedIn (/home/career/careerpointapi/models/mainModel.js:3888:10)
+    at exports.getUsrloginCtrls (/home/career/careerpointapi/controllers/mainCtrl.js:5708:12)
+    at Layer.handle [as handle_request] (/home/career/careerpointapi/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/career/careerpointapi/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/home/career/careerpointapi/node_modules/express/lib/router/route.js:112:3)
+  code: 'ER_ACCESS_DENIED_ERROR',
+  errno: 1045,
+  sqlMessage:
+   'Access denied for user \'careerpo_careerpoint\'@\'localhost\' (using password: YES)',
+  sqlState: '28000',
+  fatal: true }
+npm ERR! missing script: start
+
+npm ERR! A complete log of this run can be found in:
+npm ERR!     /home/career/.npm/_logs/2019-12-11T05_49_58_317Z-debug.log
+CARRER API Server is listening at http://0.0.0.0:7002
+(node:6573) [DEP0095] DeprecationWarning: timers.enroll() is deprecated. Please use setTimeout instead.
+(node:6573) [DEP0096] DeprecationWarning: timers.unenroll() is deprecated. Please use clearTimeout instead.
+Heello world!!!!
+select * from ntfcn_lst_t where ntfcn_typ='c';
+Heello world!!!!
+select * from ntfcn_lst_t where ntfcn_typ='c';
+Heello world!!!!
+select * from ntfcn_lst_t where ntfcn_typ='c';
+Heello world!!!!
+select * from ntfcn_lst_t where ntfcn_typ='c';
+Heello world!!!!
+select * from ntfcn_lst_t where ntfcn_typ='c';
+Heello world!!!!
+select * from ntfcn_lst_t where ntfcn_typ='c';
+Heello world!!!!
+select * from ntfcn_lst_t where ntfcn_typ='c';
+Heello world!!!!
+select * from ntfcn_lst_t where ntfcn_typ='c';
+Heello world!!!!
+select * from ntfcn_lst_t where ntfcn_typ='c';
+Heello world!!!!
+select * from ntfcn_lst_t where ntfcn_typ='c';
+Heello world!!!!
+select * from ntfcn_lst_t where ntfcn_typ='c';
+Heello world!!!!
+select * from ntfcn_lst_t where ntfcn_typ='c';
+Heello world!!!!
+select * from ntfcn_lst_t where ntfcn_typ='c';
+gettingRandomNb
+SELECT * FROM admission_test ORDER BY id DESC LIMIT 1;
+101021
+insert into admission_test(serial_no,address,city,date_of_birth,
+		district,email,enter_current_class,enter_date,father_name,father_ph_num,full_name,gender, mother_ph_num,
+		nas_address,nas_board,nas_city,nas_district,nasemail,nas_mobile1,nas_mobile2,nas_pincode,nas_principal_nm,
+		nas_school_name,nas_state,pin_code,state,test_center_perf,test_date,d_ind) values
+		('101021','Vizianagaram','Vzm',
+		'1995-12-20','Vizianagaram','nithingudisa@gmail.com','10th','2019-12-11 11:35:16',
+		'G Shiva Kumar','9666396663','Nithin Gudisa','male','9003101274',
+		'VZM','stateboard','VZM','VZM','undefined',
+		'9003101274','undefined','535003','Krishna','PSR Public School',
+		'AP','535002','AP','Rajahmundry',
+		'05-01-2020','0')
+OkPacket {
+  fieldCount: 0,
+  affectedRows: 1,
+  insertId: 1,
+  serverStatus: 2,
+  warningCount: 0,
+  message: '',
+  protocol41: true,
+  changedRows: 0 }
+1
+gettingRandomNb
+SELECT * FROM admission_test where id='1';
+gettingRandomNb
+SELECT * FROM admission_test ORDER BY id DESC LIMIT 1;
+1012
+1012
+insert into admission_test(serial_no,address,city,date_of_birth,
+		district,email,enter_current_class,enter_date,father_name,father_ph_num,full_name,gender, mother_ph_num,
+		nas_address,nas_board,nas_city,nas_district,nasemail,nas_mobile1,nas_mobile2,nas_pincode,nas_principal_nm,
+		nas_school_name,nas_state,pin_code,state,test_center_perf,test_date,d_ind) values
+		('1012','jn road','rjy',
+		'2019-12-19','east godavari','gorthyswetha@gmail.com','12th','2019-12-11 11:38:35',
+		'gbs subrahmanyam','9908451773','swetha gorthy','female','123456789',
+		'sdfs','stateboard','dsfsdf','dsfsdf','undefined',
+		'7893785540','3424','34234','dsfsdf','bhashyam',
+		'sdfsdf','533103','ap','Rajahmundry',
+		'05-01-2020','0')
+OkPacket {
+  fieldCount: 0,
+  affectedRows: 1,
+  insertId: 2,
+  serverStatus: 2,
+  warningCount: 0,
+  message: '',
+  protocol41: true,
+  changedRows: 0 }
+2
+gettingRandomNb
+SELECT * FROM admission_test where id='2';
+Heello world!!!!
+select * from ntfcn_lst_t where ntfcn_typ='c';
+Heello world!!!!
+select * from ntfcn_lst_t where ntfcn_typ='c';
+Heello world!!!!
+select * from ntfcn_lst_t where ntfcn_typ='c';
+Heello world!!!!
+select * from ntfcn_lst_t where ntfcn_typ='c';
+Heello world!!!!
+select * from ntfcn_lst_t where ntfcn_typ='c';
+Heello world!!!!
+select * from ntfcn_lst_t where ntfcn_typ='c';
+npm ERR! missing script: start
+
+npm ERR! A complete log of this run can be found in:
+npm ERR!     /home/career/.npm/_logs/2019-12-11T06_23_38_467Z-debug.log
+CARRER API Server is listening at http://0.0.0.0:7002
+Heello world!!!!
+select * from ntfcn_lst_t where ntfcn_typ='a';
+(node:8455) [DEP0095] DeprecationWarning: timers.enroll() is deprecated. Please use setTimeout instead.
+(node:8455) [DEP0096] DeprecationWarning: timers.unenroll() is deprecated. Please use clearTimeout instead.
+Heello world!!!!
+select * from ntfcn_lst_t where ntfcn_typ='c';
+Heello world!!!!
+select * from ntfcn_lst_t where ntfcn_typ='s';
+Heello world!!!!
+select * from ntfcn_lst_t where ntfcn_typ='c';
+Heello world!!!!
+select * from ntfcn_lst_t where ntfcn_typ='a';
+Heello world!!!!
+select * from ntfcn_lst_t where ntfcn_typ='c';
+Heello world!!!!
+select * from ntfcn_lst_t where ntfcn_typ='c';
+npm ERR! missing script: start
+
+npm ERR! A complete log of this run can be found in:
+npm ERR!     /home/career/.npm/_logs/2019-12-11T06_33_32_051Z-debug.log
+CARRER API Server is listening at http://0.0.0.0:7002
+Heello world!!!!
+select * from ntfcn_lst_t where ntfcn_typ='c';
+(node:9065) [DEP0095] DeprecationWarning: timers.enroll() is deprecated. Please use setTimeout instead.
+(node:9065) [DEP0096] DeprecationWarning: timers.unenroll() is deprecated. Please use clearTimeout instead.
+{ Error: ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 's education system is now made available in Andhra Pradesh through Career Point ' at line 1
+    at Query.Sequence._packetToError (/home/career/careerpointapi/node_modules/mysql/lib/protocol/sequences/Sequence.js:52:14)
+    at Query.ErrorPacket (/home/career/careerpointapi/node_modules/mysql/lib/protocol/sequences/Query.js:77:18)
+    at Protocol._parsePacket (/home/career/careerpointapi/node_modules/mysql/lib/protocol/Protocol.js:279:23)
+    at Parser.write (/home/career/careerpointapi/node_modules/mysql/lib/protocol/Parser.js:76:12)
+    at Protocol.write (/home/career/careerpointapi/node_modules/mysql/lib/protocol/Protocol.js:39:16)
+    at Socket.<anonymous> (/home/career/careerpointapi/node_modules/mysql/lib/Connection.js:103:28)
+    at Socket.emit (events.js:182:13)
+    at Socket.EventEmitter.emit (domain.js:442:20)
+    at addChunk (_stream_readable.js:283:12)
+    at readableAddChunk (_stream_readable.js:264:11)
+    --------------------
+    at Protocol._enqueue (/home/career/careerpointapi/node_modules/mysql/lib/protocol/Protocol.js:145:48)
+    at PoolConnection.query (/home/career/careerpointapi/node_modules/mysql/lib/Connection.js:208:25)
+    at /home/career/careerpointapi/utils/dbutils.js:9:36
+    at Ping.onOperationComplete [as _callback] (/home/career/careerpointapi/node_modules/mysql/lib/Pool.js:110:5)
+    at Ping.Sequence.end (/home/career/careerpointapi/node_modules/mysql/lib/protocol/sequences/Sequence.js:88:24)
+    at Ping.Sequence.OkPacket (/home/career/careerpointapi/node_modules/mysql/lib/protocol/sequences/Sequence.js:97:8)
+    at Protocol._parsePacket (/home/career/careerpointapi/node_modules/mysql/lib/protocol/Protocol.js:279:23)
+    at Parser.write (/home/career/careerpointapi/node_modules/mysql/lib/protocol/Parser.js:76:12)
+    at Protocol.write (/home/career/careerpointapi/node_modules/mysql/lib/protocol/Protocol.js:39:16)
+    at Socket.<anonymous> (/home/career/careerpointapi/node_modules/mysql/lib/Connection.js:103:28)
+  code: 'ER_PARSE_ERROR',
+  errno: 1064,
+  sqlMessage:
+   'You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near \'s education system is now made available in Andhra Pradesh through Career Point \' at line 1',
+  sqlState: '42000',
+  index: 0,
+  sql:
+   'insert into carrer_campus_profile_tbl (cmps_name,location,about,prinicpal_nm,prinicpal_image,prinicpal_sign_img,clg_estblsd_dt,d_in,i_ts) values (\'Career Point Andhra Pradesh\',\'Visakhapatnam & Rajahmundry\',\'Career Point Kota\'s education system is now made available in Andhra Pradesh through Career Point Junior Colleges. Best Education system with Ultimate Personal care is the guiding principle to our educational institutions. Headed by IIT alumni at All-India level and in Andhra Pradesh, Career Point is set to reach greater heights and help many students get that coveted seat in premier educational institutions of engineering, medical and abroad through IIT-JEE, NEET, SAT etc.\',\'Dear all, Welcome to Career Point Andhra Pradesh.\',\'Dear all, Welcome to Career Point Andhra Pradesh.\',\'Nithin Gudisa\',\'2018-05-31T18:30:00.000Z\',0,\'2019-12-11 12:04:12\');' }
+edit Dtls
+Wed, 11 Dec 2019 06:34:12 GMT express deprecated res.send(status, body): Use res.status(status).send(body) instead at controllers/mainCtrl.js:6138:17
+gettingRandomNb
+SELECT * FROM admission_test ORDER BY id DESC LIMIT 1;
+101023
+101023
+insert into admission_test(serial_no,address,city,date_of_birth,
+		district,email,enter_current_class,enter_date,father_name,father_ph_num,full_name,gender, mother_ph_num,
+		nas_address,nas_board,nas_city,nas_district,nasemail,nas_mobile1,nas_mobile2,nas_pincode,nas_principal_nm,
+		nas_school_name,nas_state,pin_code,state,test_center_perf,test_date,d_ind) values
+		('101023','dsfsdf','fdsf',
+		'2019-12-17','sdfsdf','gorthy@gmail.com','11th','2019-12-11 12:04:55',
+		'dsfsdf','7893785540','swetha gorthy','male','12345678',
+		'ghfgh','stateboard','fghfgh','fghfgh','undefined',
+		'676575676','6456456456','533103','fghfgh','gfh',
+		'ghgh','898797','dsfsdf','Rajahmundry',
+		'05-01-2020','0')
+OkPacket {
+  fieldCount: 0,
+  affectedRows: 1,
+  insertId: 3,
+  serverStatus: 2,
+  warningCount: 0,
+  message: '',
+  protocol41: true,
+  changedRows: 0 }
+3
+gettingRandomNb
+SELECT * FROM admission_test where id='3';
+Heello world!!!!
+select * from ntfcn_lst_t where ntfcn_typ='c';
+Heello world!!!!
+select * from ntfcn_lst_t where ntfcn_typ='c';
+Heello world!!!!
+select * from ntfcn_lst_t where ntfcn_typ='c';
+Heello world!!!!
+select * from ntfcn_lst_t where ntfcn_typ='c';
+Heello world!!!!
+select * from ntfcn_lst_t where ntfcn_typ='c';
+Heello world!!!!
+select * from ntfcn_lst_t where ntfcn_typ='c';
+Heello world!!!!
+select * from ntfcn_lst_t where ntfcn_typ='c';
+Heello world!!!!
+select * from ntfcn_lst_t where ntfcn_typ='c';
+Heello world!!!!
+{ name: 'Nithin Gudisa',
+  mail: 'nithingudisa@gmail.com',
+  number: '+919003101274',
+  stream: '2',
+  class: '3',
+  center: '2' }
+coming into the data!!!!!!!!
+insert into onln_register (reg_nm,reg_mail,reg_phnm,stream,class,center) values('Nithin Gudisa','nithingudisa@gmail.com','+919003101274','2','3','2');
+Heello world!!!!
+select * from ntfcn_lst_t where ntfcn_typ='c';
+npm ERR! missing script: start
+
+npm ERR! A complete log of this run can be found in:
+npm ERR!     /home/career/.npm/_logs/2019-12-11T07_00_58_953Z-debug.log
+CARRER API Server is listening at http://0.0.0.0:7002
+(node:10247) [DEP0095] DeprecationWarning: timers.enroll() is deprecated. Please use setTimeout instead.
+(node:10247) [DEP0096] DeprecationWarning: timers.unenroll() is deprecated. Please use clearTimeout instead.
+Heello world!!!!
+select * from ntfcn_lst_t where ntfcn_typ='c';
+Heello world!!!!
+select * from ntfcn_lst_t where ntfcn_typ='c';
+Heello world!!!!
+select * from ntfcn_lst_t where ntfcn_typ='c';
+Heello world!!!!
+select * from ntfcn_lst_t where ntfcn_typ='c';
+Heello world!!!!
+select * from ntfcn_lst_t where ntfcn_typ='c';
+{ Error: ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 's flagship exam. Do contact 9177242299 / 9177212299 for more details.','http://c' at line 1
+    at Query.Sequence._packetToError (/home/career/careerpointapi/node_modules/mysql/lib/protocol/sequences/Sequence.js:52:14)
+    at Query.ErrorPacket (/home/career/careerpointapi/node_modules/mysql/lib/protocol/sequences/Query.js:77:18)
+    at Protocol._parsePacket (/home/career/careerpointapi/node_modules/mysql/lib/protocol/Protocol.js:279:23)
+    at Parser.write (/home/career/careerpointapi/node_modules/mysql/lib/protocol/Parser.js:76:12)
+    at Protocol.write (/home/career/careerpointapi/node_modules/mysql/lib/protocol/Protocol.js:39:16)
+    at Socket.<anonymous> (/home/career/careerpointapi/node_modules/mysql/lib/Connection.js:103:28)
+    at Socket.emit (events.js:182:13)
+    at Socket.EventEmitter.emit (domain.js:442:20)
+    at addChunk (_stream_readable.js:283:12)
+    at readableAddChunk (_stream_readable.js:264:11)
+    --------------------
+    at Protocol._enqueue (/home/career/careerpointapi/node_modules/mysql/lib/protocol/Protocol.js:145:48)
+    at PoolConnection.query (/home/career/careerpointapi/node_modules/mysql/lib/Connection.js:208:25)
+    at /home/career/careerpointapi/utils/dbutils.js:9:36
+    at Ping.onOperationComplete [as _callback] (/home/career/careerpointapi/node_modules/mysql/lib/Pool.js:110:5)
+    at Ping.Sequence.end (/home/career/careerpointapi/node_modules/mysql/lib/protocol/sequences/Sequence.js:88:24)
+    at Ping.Sequence.OkPacket (/home/career/careerpointapi/node_modules/mysql/lib/protocol/sequences/Sequence.js:97:8)
+    at Protocol._parsePacket (/home/career/careerpointapi/node_modules/mysql/lib/protocol/Protocol.js:279:23)
+    at Parser.write (/home/career/careerpointapi/node_modules/mysql/lib/protocol/Parser.js:76:12)
+    at Protocol.write (/home/career/careerpointapi/node_modules/mysql/lib/protocol/Protocol.js:39:16)
+    at Socket.<anonymous> (/home/career/careerpointapi/node_modules/mysql/lib/Connection.js:103:28)
+  code: 'ER_PARSE_ERROR',
+  errno: 1064,
+  sqlMessage:
+   'You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near \'s flagship exam. Do contact 9177242299 / 9177212299 for more details.\',\'http://c\' at line 1',
+  sqlState: '42000',
+  index: 0,
+  sql:
+   'insert into ntfcn_lst_t(ntfcn_typ, ntfcn_exm_tlt, ntfcn_dcrptn, ntfcn_url_lnk,i_ts) values(\'a\',\'CP-SAT Scholarship Test Registrations\',\'Secure up to 90% scholarship based on CP-SAT result, Career Point\'s flagship exam. Do contact 9177242299 / 9177212299 for more details.\',\'http://careerpointap.com/#/Admission\',\'2019-12-11 13:24:20\')' }
+Heello world!!!!
+select * from ntfcn_lst_t where ntfcn_typ='c';
+Heello world!!!!
+select * from ntfcn_lst_t where ntfcn_typ='a';
+Heello world!!!!
+select * from ntfcn_lst_t where ntfcn_typ='s';
+Heello world!!!!
+select * from ntfcn_lst_t where ntfcn_typ='a';
+Heello world!!!!
+select * from ntfcn_lst_t where ntfcn_typ='c';
+Heello world!!!!
+select * from ntfcn_lst_t where ntfcn_typ='c';
+Heello world!!!!
+select * from ntfcn_lst_t where ntfcn_typ='c';
+Heello world!!!!
+select * from ntfcn_lst_t where ntfcn_typ='c';
+Heello world!!!!
+select * from ntfcn_lst_t where ntfcn_typ='c';
+Heello world!!!!
+select * from ntfcn_lst_t where ntfcn_typ='c';
+Heello world!!!!
+select * from ntfcn_lst_t where ntfcn_typ='c';
+Heello world!!!!
+select * from ntfcn_lst_t where ntfcn_typ='c';
+Heello world!!!!
+select * from ntfcn_lst_t where ntfcn_typ='c';
+Heello world!!!!
+select * from ntfcn_lst_t where ntfcn_typ='c';
+Heello world!!!!
+select * from ntfcn_lst_t where ntfcn_typ='c';
+{ Error: ER_NO_SUCH_TABLE: Table 'career_db.usr_pckg_tst_rel_t' doesn't exist
+    at Query.Sequence._packetToError (/home/career/careerpointapi/node_modules/mysql/lib/protocol/sequences/Sequence.js:52:14)
+    at Query.ErrorPacket (/home/career/careerpointapi/node_modules/mysql/lib/protocol/sequences/Query.js:77:18)
+    at Protocol._parsePacket (/home/career/careerpointapi/node_modules/mysql/lib/protocol/Protocol.js:279:23)
+    at Parser.write (/home/career/careerpointapi/node_modules/mysql/lib/protocol/Parser.js:76:12)
+    at Protocol.write (/home/career/careerpointapi/node_modules/mysql/lib/protocol/Protocol.js:39:16)
+    at Socket.<anonymous> (/home/career/careerpointapi/node_modules/mysql/lib/Connection.js:103:28)
+    at Socket.emit (events.js:182:13)
+    at Socket.EventEmitter.emit (domain.js:442:20)
+    at addChunk (_stream_readable.js:283:12)
+    at readableAddChunk (_stream_readable.js:264:11)
+    --------------------
+    at Protocol._enqueue (/home/career/careerpointapi/node_modules/mysql/lib/protocol/Protocol.js:145:48)
+    at PoolConnection.query (/home/career/careerpointapi/node_modules/mysql/lib/Connection.js:208:25)
+    at /home/career/careerpointapi/utils/dbutils.js:9:36
+    at Ping.onOperationComplete [as _callback] (/home/career/careerpointapi/node_modules/mysql/lib/Pool.js:110:5)
+    at Ping.Sequence.end (/home/career/careerpointapi/node_modules/mysql/lib/protocol/sequences/Sequence.js:88:24)
+    at Ping.Sequence.OkPacket (/home/career/careerpointapi/node_modules/mysql/lib/protocol/sequences/Sequence.js:97:8)
+    at Protocol._parsePacket (/home/career/careerpointapi/node_modules/mysql/lib/protocol/Protocol.js:279:23)
+    at Parser.write (/home/career/careerpointapi/node_modules/mysql/lib/protocol/Parser.js:76:12)
+    at Protocol.write (/home/career/careerpointapi/node_modules/mysql/lib/protocol/Protocol.js:39:16)
+    at Socket.<anonymous> (/home/career/careerpointapi/node_modules/mysql/lib/Connection.js:103:28)
+  code: 'ER_NO_SUCH_TABLE',
+  errno: 1146,
+  sqlMessage: 'Table \'career_db.usr_pckg_tst_rel_t\' doesn\'t exist',
+  sqlState: '42S02',
+  index: 0,
+  sql:
+   '\n\t\tSELECT count(*)*2 as cnt,ss.clnt_id FROM usr_pckg_tst_rel_t as upt\n\t\tJOIN stu_signup_dtl_t as ss on ss.usr_id = upt.usr_id AND clnt_id <> 1\n\t\tWHERE strt_in = 1 AND DATE_FORMAT(start_tm, "%Y-%m-%d") = CURDATE() - INTERVAL 2 day GROUP BY ss.clnt_id;\t\n\t' }
+/home/career/careerpointapi/node_modules/mysql/lib/protocol/Parser.js:80
+        throw err; // Rethrow non-MySQL errors
+        ^
+
+TypeError: Cannot read property 'send' of undefined
+    at /home/career/careerpointapi/controllers/mainCtrl.js:5197:17
+    at /home/career/careerpointapi/models/mainModel.js:3377:4
+    at Query._callback (/home/career/careerpointapi/utils/dbutils.js:11:59)
+    at Query.Sequence.end (/home/career/careerpointapi/node_modules/mysql/lib/protocol/sequences/Sequence.js:88:24)
+    at Query.ErrorPacket (/home/career/careerpointapi/node_modules/mysql/lib/protocol/sequences/Query.js:90:8)
+    at Protocol._parsePacket (/home/career/careerpointapi/node_modules/mysql/lib/protocol/Protocol.js:279:23)
+    at Parser.write (/home/career/careerpointapi/node_modules/mysql/lib/protocol/Parser.js:76:12)
+    at Protocol.write (/home/career/careerpointapi/node_modules/mysql/lib/protocol/Protocol.js:39:16)
+    at Socket.<anonymous> (/home/career/careerpointapi/node_modules/mysql/lib/Connection.js:103:28)
+    at Socket.emit (events.js:182:13)
+npm ERR! missing script: start
+
+npm ERR! A complete log of this run can be found in:
+npm ERR!     /home/career/.npm/_logs/2019-12-12T04_20_11_064Z-debug.log
+CARRER API Server is listening at http://0.0.0.0:7002
+(node:17839) [DEP0095] DeprecationWarning: timers.enroll() is deprecated. Please use setTimeout instead.
+(node:17839) [DEP0096] DeprecationWarning: timers.unenroll() is deprecated. Please use clearTimeout instead.
+Heello world!!!!
+select * from ntfcn_lst_t where ntfcn_typ='c';
+Heello world!!!!
+select * from ntfcn_lst_t where ntfcn_typ='c';
+Heello world!!!!
+select * from ntfcn_lst_t where ntfcn_typ='c';
+Heello world!!!!
+select * from ntfcn_lst_t where ntfcn_typ='c';
+Heello world!!!!
+select * from ntfcn_lst_t where ntfcn_typ='c';
+Heello world!!!!
+select * from ntfcn_lst_t where ntfcn_typ='c';
+Heello world!!!!
+select * from ntfcn_lst_t where ntfcn_typ='c';
+Heello world!!!!
+select * from ntfcn_lst_t where ntfcn_typ='c';
+Heello world!!!!
+select * from ntfcn_lst_t where ntfcn_typ='c';
+Heello world!!!!
+select * from ntfcn_lst_t where ntfcn_typ='c';
+gettingRandomNb
+SELECT * FROM admission_test ORDER BY id DESC LIMIT 1;
+101024
+101024
+insert into admission_test(serial_no,address,city,date_of_birth,
+		district,email,enter_current_class,enter_date,father_name,father_ph_num,full_name,gender, mother_ph_num,
+		nas_address,nas_board,nas_city,nas_district,nasemail,nas_mobile1,nas_mobile2,nas_pincode,nas_principal_nm,
+		nas_school_name,nas_state,pin_code,state,test_center_perf,test_date,d_ind) values
+		('101024','47-7-38, Dwarakanagar 4th Lane','Vizag',
+		'1990-10-05','Visakhapatnam','sampath.keth@gmail.com','10th','2019-12-12 16:25:39',
+		'Gurumurthy','9999999999','Sampath Kethavarapu','male','9849927799',
+		'wdawa','cbse','Vizag','adwadwad','undefined',
+		'999999999999','99999999999','530016','Ravi','Timpany',
+		'Andhra Pradesh','530016','ANDHRA PRADESH','Visakhapatnam',
+		'05-01-2020','0')
+OkPacket {
+  fieldCount: 0,
+  affectedRows: 1,
+  insertId: 4,
+  serverStatus: 2,
+  warningCount: 0,
+  message: '',
+  protocol41: true,
+  changedRows: 0 }
+4
+gettingRandomNb
+SELECT * FROM admission_test where id='4';
+[ RowDataPacket {
+    ranker_id: 8,
+    courese: 'INTERMEDIATE',
+    batch: '2016',
+    exam: 'Neet',
+    testimonial: 'dsfsdf',
+    i_ts: 2019-10-21T18:30:00.000Z,
+    u_ts: null,
+    name: 'sdf',
+    image_url:
+     'https://carrerpoint.s3.ap-south-1.amazonaws.com/undefined/11toprankers.jpeg',
+    rank: 'sdf' },
+  RowDataPacket {
+    ranker_id: 9,
+    courese: 'INTERMEDIATE',
+    batch: '2017',
+    exam: 'Neet',
+    testimonial: 'dsfsf',
+    i_ts: 2019-10-21T18:30:00.000Z,
+    u_ts: null,
+    name: 'dfs',
+    image_url:
+     'https://carrerpoint.s3.ap-south-1.amazonaws.com/undefined/11toprankers.jpeg',
+    rank: 'df' },
+  RowDataPacket {
+    ranker_id: 10,
+    courese: 'INTERMEDIATE',
+    batch: '2018',
+    exam: 'Neet',
+    testimonial: 'fdsfd',
+    i_ts: 2019-10-21T18:30:00.000Z,
+    u_ts: 2019-10-21T18:30:00.000Z,
+    name: 'dfsf',
+    image_url:
+     'https://carrerpoint.s3.ap-south-1.amazonaws.com/undefined/11toprankers.jpeg',
+    rank: 'fsdfd' },
+  RowDataPacket {
+    ranker_id: 11,
+    courese: 'INTERMEDIATE',
+    batch: '2019',
+    exam: 'Neet',
+    testimonial: 'first in our college',
+    i_ts: 2019-10-21T18:30:00.000Z,
+    u_ts: 2019-10-21T18:30:00.000Z,
+    name: 'naveen',
+    image_url:
+     'https://carrerpoint.s3.ap-south-1.amazonaws.com/undefined/11toprankers.jpeg',
+    rank: '23' } ]
+[ RowDataPacket {
+    ranker_id: 8,
+    courese: 'INTERMEDIATE',
+    batch: '2016',
+    exam: 'Neet',
+    testimonial: 'dsfsdf',
+    i_ts: 2019-10-21T18:30:00.000Z,
+    u_ts: null,
+    name: 'sdf',
+    image_url:
+     'https://carrerpoint.s3.ap-south-1.amazonaws.com/undefined/11toprankers.jpeg',
+    rank: 'sdf' },
+  RowDataPacket {
+    ranker_id: 9,
+    courese: 'INTERMEDIATE',
+    batch: '2017',
+    exam: 'Neet',
+    testimonial: 'dsfsf',
+    i_ts: 2019-10-21T18:30:00.000Z,
+    u_ts: null,
+    name: 'dfs',
+    image_url:
+     'https://carrerpoint.s3.ap-south-1.amazonaws.com/undefined/11toprankers.jpeg',
+    rank: 'df' },
+  RowDataPacket {
+    ranker_id: 10,
+    courese: 'INTERMEDIATE',
+    batch: '2018',
+    exam: 'Neet',
+    testimonial: 'fdsfd',
+    i_ts: 2019-10-21T18:30:00.000Z,
+    u_ts: 2019-10-21T18:30:00.000Z,
+    name: 'dfsf',
+    image_url:
+     'https://carrerpoint.s3.ap-south-1.amazonaws.com/undefined/11toprankers.jpeg',
+    rank: 'fsdfd' },
+  RowDataPacket {
+    ranker_id: 11,
+    courese: 'INTERMEDIATE',
+    batch: '2019',
+    exam: 'Neet',
+    testimonial: 'first in our college',
+    i_ts: 2019-10-21T18:30:00.000Z,
+    u_ts: 2019-10-21T18:30:00.000Z,
+    name: 'naveen',
+    image_url:
+     'https://carrerpoint.s3.ap-south-1.amazonaws.com/undefined/11toprankers.jpeg',
+    rank: '23' } ]
+Heello world!!!!
+select * from ntfcn_lst_t where ntfcn_typ='c';
+Heello world!!!!
+select * from ntfcn_lst_t where ntfcn_typ='c';
+Heello world!!!!
+select * from ntfcn_lst_t where ntfcn_typ='c';
+Heello world!!!!
+select * from ntfcn_lst_t where ntfcn_typ='c';
+[ RowDataPacket {
+    ranker_id: 8,
+    courese: 'INTERMEDIATE',
+    batch: '2016',
+    exam: 'Neet',
+    testimonial: 'dsfsdf',
+    i_ts: 2019-10-21T18:30:00.000Z,
+    u_ts: null,
+    name: 'sdf',
+    image_url:
+     'https://carrerpoint.s3.ap-south-1.amazonaws.com/undefined/11toprankers.jpeg',
+    rank: 'sdf' },
+  RowDataPacket {
+    ranker_id: 9,
+    courese: 'INTERMEDIATE',
+    batch: '2017',
+    exam: 'Neet',
+    testimonial: 'dsfsf',
+    i_ts: 2019-10-21T18:30:00.000Z,
+    u_ts: null,
+    name: 'dfs',
+    image_url:
+     'https://carrerpoint.s3.ap-south-1.amazonaws.com/undefined/11toprankers.jpeg',
+    rank: 'df' },
+  RowDataPacket {
+    ranker_id: 10,
+    courese: 'INTERMEDIATE',
+    batch: '2018',
+    exam: 'Neet',
+    testimonial: 'fdsfd',
+    i_ts: 2019-10-21T18:30:00.000Z,
+    u_ts: 2019-10-21T18:30:00.000Z,
+    name: 'dfsf',
+    image_url:
+     'https://carrerpoint.s3.ap-south-1.amazonaws.com/undefined/11toprankers.jpeg',
+    rank: 'fsdfd' },
+  RowDataPacket {
+    ranker_id: 11,
+    courese: 'INTERMEDIATE',
+    batch: '2019',
+    exam: 'Neet',
+    testimonial: 'first in our college',
+    i_ts: 2019-10-21T18:30:00.000Z,
+    u_ts: 2019-10-21T18:30:00.000Z,
+    name: 'naveen',
+    image_url:
+     'https://carrerpoint.s3.ap-south-1.amazonaws.com/undefined/11toprankers.jpeg',
+    rank: '23' } ]
+Heello world!!!!
+select * from ntfcn_lst_t where ntfcn_typ='c';
+Heello world!!!!
+select * from ntfcn_lst_t where ntfcn_typ='c';
+[ RowDataPacket {
+    ranker_id: 8,
+    courese: 'INTERMEDIATE',
+    batch: '2016',
+    exam: 'Neet',
+    testimonial: 'dsfsdf',
+    i_ts: 2019-10-21T18:30:00.000Z,
+    u_ts: null,
+    name: 'sdf',
+    image_url:
+     'https://carrerpoint.s3.ap-south-1.amazonaws.com/undefined/11toprankers.jpeg',
+    rank: 'sdf' },
+  RowDataPacket {
+    ranker_id: 9,
+    courese: 'INTERMEDIATE',
+    batch: '2017',
+    exam: 'Neet',
+    testimonial: 'dsfsf',
+    i_ts: 2019-10-21T18:30:00.000Z,
+    u_ts: null,
+    name: 'dfs',
+    image_url:
+     'https://carrerpoint.s3.ap-south-1.amazonaws.com/undefined/11toprankers.jpeg',
+    rank: 'df' },
+  RowDataPacket {
+    ranker_id: 10,
+    courese: 'INTERMEDIATE',
+    batch: '2018',
+    exam: 'Neet',
+    testimonial: 'fdsfd',
+    i_ts: 2019-10-21T18:30:00.000Z,
+    u_ts: 2019-10-21T18:30:00.000Z,
+    name: 'dfsf',
+    image_url:
+     'https://carrerpoint.s3.ap-south-1.amazonaws.com/undefined/11toprankers.jpeg',
+    rank: 'fsdfd' },
+  RowDataPacket {
+    ranker_id: 11,
+    courese: 'INTERMEDIATE',
+    batch: '2019',
+    exam: 'Neet',
+    testimonial: 'first in our college',
+    i_ts: 2019-10-21T18:30:00.000Z,
+    u_ts: 2019-10-21T18:30:00.000Z,
+    name: 'naveen',
+    image_url:
+     'https://carrerpoint.s3.ap-south-1.amazonaws.com/undefined/11toprankers.jpeg',
+    rank: '23' } ]
+Heello world!!!!
+select * from ntfcn_lst_t where ntfcn_typ='c';
+{ Error: ER_NO_SUCH_TABLE: Table 'career_db.usr_pckg_tst_rel_t' doesn't exist
+    at Query.Sequence._packetToError (/home/career/careerpointapi/node_modules/mysql/lib/protocol/sequences/Sequence.js:52:14)
+    at Query.ErrorPacket (/home/career/careerpointapi/node_modules/mysql/lib/protocol/sequences/Query.js:77:18)
+    at Protocol._parsePacket (/home/career/careerpointapi/node_modules/mysql/lib/protocol/Protocol.js:279:23)
+    at Parser.write (/home/career/careerpointapi/node_modules/mysql/lib/protocol/Parser.js:76:12)
+    at Protocol.write (/home/career/careerpointapi/node_modules/mysql/lib/protocol/Protocol.js:39:16)
+    at Socket.<anonymous> (/home/career/careerpointapi/node_modules/mysql/lib/Connection.js:103:28)
+    at Socket.emit (events.js:182:13)
+    at Socket.EventEmitter.emit (domain.js:442:20)
+    at addChunk (_stream_readable.js:283:12)
+    at readableAddChunk (_stream_readable.js:264:11)
+    --------------------
+    at Protocol._enqueue (/home/career/careerpointapi/node_modules/mysql/lib/protocol/Protocol.js:145:48)
+    at PoolConnection.query (/home/career/careerpointapi/node_modules/mysql/lib/Connection.js:208:25)
+    at /home/career/careerpointapi/utils/dbutils.js:9:36
+    at Ping.onOperationComplete [as _callback] (/home/career/careerpointapi/node_modules/mysql/lib/Pool.js:110:5)
+    at Ping.Sequence.end (/home/career/careerpointapi/node_modules/mysql/lib/protocol/sequences/Sequence.js:88:24)
+    at Ping.Sequence.OkPacket (/home/career/careerpointapi/node_modules/mysql/lib/protocol/sequences/Sequence.js:97:8)
+    at Protocol._parsePacket (/home/career/careerpointapi/node_modules/mysql/lib/protocol/Protocol.js:279:23)
+    at Parser.write (/home/career/careerpointapi/node_modules/mysql/lib/protocol/Parser.js:76:12)
+    at Protocol.write (/home/career/careerpointapi/node_modules/mysql/lib/protocol/Protocol.js:39:16)
+    at Socket.<anonymous> (/home/career/careerpointapi/node_modules/mysql/lib/Connection.js:103:28)
+  code: 'ER_NO_SUCH_TABLE',
+  errno: 1146,
+  sqlMessage: 'Table \'career_db.usr_pckg_tst_rel_t\' doesn\'t exist',
+  sqlState: '42S02',
+  index: 0,
+  sql:
+   '\n\t\tSELECT count(*)*2 as cnt,ss.clnt_id FROM usr_pckg_tst_rel_t as upt\n\t\tJOIN stu_signup_dtl_t as ss on ss.usr_id = upt.usr_id AND clnt_id <> 1\n\t\tWHERE strt_in = 1 AND DATE_FORMAT(start_tm, "%Y-%m-%d") = CURDATE() - INTERVAL 2 day GROUP BY ss.clnt_id;\t\n\t' }
+/home/career/careerpointapi/node_modules/mysql/lib/protocol/Parser.js:80
+        throw err; // Rethrow non-MySQL errors
+        ^
+
+TypeError: Cannot read property 'send' of undefined
+    at /home/career/careerpointapi/controllers/mainCtrl.js:5197:17
+    at /home/career/careerpointapi/models/mainModel.js:3377:4
+    at Query._callback (/home/career/careerpointapi/utils/dbutils.js:11:59)
+    at Query.Sequence.end (/home/career/careerpointapi/node_modules/mysql/lib/protocol/sequences/Sequence.js:88:24)
+    at Query.ErrorPacket (/home/career/careerpointapi/node_modules/mysql/lib/protocol/sequences/Query.js:90:8)
+    at Protocol._parsePacket (/home/career/careerpointapi/node_modules/mysql/lib/protocol/Protocol.js:279:23)
+    at Parser.write (/home/career/careerpointapi/node_modules/mysql/lib/protocol/Parser.js:76:12)
+    at Protocol.write (/home/career/careerpointapi/node_modules/mysql/lib/protocol/Protocol.js:39:16)
+    at Socket.<anonymous> (/home/career/careerpointapi/node_modules/mysql/lib/Connection.js:103:28)
+    at Socket.emit (events.js:182:13)
+npm ERR! missing script: start
+
+npm ERR! A complete log of this run can be found in:
+npm ERR!     /home/career/.npm/_logs/2019-12-13T04_36_11_397Z-debug.log
+CARRER API Server is listening at http://0.0.0.0:7002
+(node:32299) [DEP0095] DeprecationWarning: timers.enroll() is deprecated. Please use setTimeout instead.
+(node:32299) [DEP0096] DeprecationWarning: timers.unenroll() is deprecated. Please use clearTimeout instead.
